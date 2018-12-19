@@ -30,18 +30,18 @@
         </javaTypeResolver>
 
         <!-- 生成实体类的包名和位置，这里配置将生成的实体类放在 com.mjk.beans 这个包下 -->
-        <javaModelGenerator targetPackage="cn.superid.auth.auth.entity" targetProject="D:\workspace\OAuth-Service\src\main\java">
+        <javaModelGenerator targetPackage="cn.superid.auth.auth.entity" targetProject="D:\workspace\gws\src\main\java">
 			<property name="enableSubPackages" value="true" />
             <property name="trimStrings" value="true" />
         </javaModelGenerator>
 
         <!-- 生成的 SQL 映射文件包名和位置，这里配置将生成的SQL映射文件放在 com.mjk.mapping 这个包下 -->
-        <sqlMapGenerator targetPackage="mybatis.mapper" targetProject="D:\workspace\OAuth-Service\src\main\resources">
+        <sqlMapGenerator targetPackage="mybatis.mapper" targetProject="D:\workspace\gws\src\main\resources">
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>
 
         <!-- 生成 DAO 的包名和位置，这里配置将生成的 dao 类放在 com.mjk.dao 这个包下 -->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="cn.superid.auth.auth.dao.mapper" targetProject="D:\workspace\OAuth-Service\src\main\java">
+        <javaClientGenerator type="XMLMAPPER" targetPackage="cn.superid.auth.auth.dao.mapper" targetProject="D:\workspace\gws\src\main\java">
             <!-- 在 targetPackage 的基础上，根据数据库的 schema 再生成一层 package，最终生成的类放在这个 package 下，默认为 false -->
             <property name="enableSubPackages" value="true" />
             <!-- 可以为所有生成的接口添加一个父接口，但是MBG只负责生成，不负责检查 -->

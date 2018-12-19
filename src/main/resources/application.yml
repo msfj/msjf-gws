@@ -9,9 +9,9 @@ spring:
       maximum-pool-size: 5
       pool-name: dbcp1
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/auth?autoReconnect=true&useSSL=false
+    url: jdbc:mysql://43.254.2.245:9190/gws?autoReconnect=true&useSSL=false
     username: ${AUTH_DB_PWD:root}
-    password: ${AUTH_DB_USER:_123456_}
+    password: ${AUTH_DB_USER:Nbsm741!+?}
 #    schema[0]: classpath:/auth.sql
 #    initialization-mode: ALWAYS
     type: com.zaxxer.hikari.HikariDataSource
